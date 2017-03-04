@@ -155,6 +155,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-klimt-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so
+    vendor/samsung/chagall-klimt-common/proprietary/lib/omx/libOMX.Exynos.MP3.Decoder.so:system/lib/omx/libOMX.Exynos.MP3.Decoder.so
+    vendor/samsung/chagall-klimt-common/proprietary/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG2.Decoder.so
 
 #Samsung S5P Multi Format Codec V5/V6 firmware
 PRODUCT_COPY_FILES += \
