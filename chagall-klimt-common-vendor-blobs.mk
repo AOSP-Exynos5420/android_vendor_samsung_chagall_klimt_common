@@ -73,11 +73,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-klimt-common/proprietary/lib/libak09911c.so:system/lib/libak09911c.so
 
-# OpenGL - T6XX R7P0 GPU Driver
+#OpenGL
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-klimt-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so
 
-# RS - T6XX R7P0 GPU Driver
+#RS
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-klimt-common/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
     vendor/samsung/chagall-klimt-common/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc
